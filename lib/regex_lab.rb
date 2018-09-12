@@ -3,8 +3,8 @@ word ="this is some string"
 
  if word.scan(/[aeiou]/)
    return true
-   
- elseif 
+
+ elseif
    return false
 
  end
