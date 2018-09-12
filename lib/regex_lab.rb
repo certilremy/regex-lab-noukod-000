@@ -3,9 +3,9 @@ word ="this is some string"
 
  if word.scan(/[aeiou]/)
    return true
- elsif 
+ elsif
    return false
-   
+
  end
 end
 
