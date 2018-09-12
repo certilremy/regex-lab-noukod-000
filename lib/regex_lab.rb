@@ -4,7 +4,7 @@ word ="this is some string"
  if word.scan(/[aeiou]/)
    return true
 
- elseif word.scan(/[^aeiou]/)
+ elseif word.scan(/^[^aeiou\W]/)
    return false
 
  end
