@@ -1,7 +1,6 @@
 def starts_with_a_vowel?(word)
-  if "this is some string".scan(/[aeiou]/)
-    return
-  end
+  "this is some string".scanscan(/\b[AEIOUaeiou][a-z]?\b/)
+  
 
 
 end
