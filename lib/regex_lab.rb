@@ -3,7 +3,7 @@ word ="this is some string"
 
  if word.scan(/[aeiou]/)
    return true
-   
+
  elseif /^[^aeiou\W]/i.match(s) == nil
  return false
 else
